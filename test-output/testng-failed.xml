@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.DependsOnMethodsPractice">
+      <class name="testNG.AssertionUsingIf">
         <methods>
-          <include name="demo3"/>
-          <include name="demo4"/>
+          <include name="demo"/>
         </methods>
-      </class> <!-- testNG.DependsOnMethodsPractice -->
+      </class> <!-- testNG.AssertionUsingIf -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
