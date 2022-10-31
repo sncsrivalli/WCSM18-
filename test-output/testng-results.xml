@@ -1,125 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="22" total="26" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-29T09:06:20 IST" name="Suite" finished-at="2022-10-29T09:06:21 IST" duration-ms="135">
+  <suite started-at="2022-10-31T09:24:26 IST" name="Suite" finished-at="2022-10-31T09:25:14 IST" duration-ms="48595">
     <groups>
-      <group name="Smoke Tests">
-        <method signature="FifthTest.fifthTest()[pri:0, instance:groupExecution.FifthTest@13e344d]" name="fifthTest" class="groupExecution.FifthTest"/>
-        <method signature="FirstTest.firstTest()[pri:0, instance:groupExecution.FirstTest@71ba6d4e]" name="firstTest" class="groupExecution.FirstTest"/>
-        <method signature="SecondTest.secondTest()[pri:0, instance:groupExecution.SecondTest@738dc9b]" name="secondTest" class="groupExecution.SecondTest"/>
-        <method signature="SixthTest.sixthTest()[pri:0, instance:groupExecution.SixthTest@55a147cc]" name="sixthTest" class="groupExecution.SixthTest"/>
-      </group> <!-- Smoke Tests -->
-      <group name="Sanity Tests">
-        <method signature="FifthTest.fifthTest()[pri:0, instance:groupExecution.FifthTest@13e344d]" name="fifthTest" class="groupExecution.FifthTest"/>
-        <method signature="SixthTest.sixthTest()[pri:0, instance:groupExecution.SixthTest@55a147cc]" name="sixthTest" class="groupExecution.SixthTest"/>
-      </group> <!-- Sanity Tests -->
     </groups>
-    <test started-at="2022-10-29T09:06:20 IST" name="Test" finished-at="2022-10-29T09:06:21 IST" duration-ms="135">
-      <class name="groupExecution.SixthTest">
-        <test-method is-config="true" signature="classSetup()[pri:0, instance:groupExecution.SixthTest@55a147cc]" started-at="2022-10-29T09:06:21 IST" name="classSetup" finished-at="2022-10-29T09:06:21 IST" duration-ms="1" status="PASS">
+    <test started-at="2022-10-31T09:24:26 IST" name="Test1" finished-at="2022-10-31T09:24:42 IST" duration-ms="16516">
+      <class name="crossBrowserExecution.SecondTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:crossBrowserExecution.SecondTest@3012646b]" started-at="2022-10-31T09:24:26 IST" name="launchBrowser" finished-at="2022-10-31T09:24:32 IST" duration-ms="6222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- classSetup -->
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:groupExecution.SixthTest@55a147cc]" started-at="2022-10-29T09:06:21 IST" name="methodSetup" finished-at="2022-10-29T09:06:21 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodSetup -->
-        <test-method signature="sixthTest()[pri:0, instance:groupExecution.SixthTest@55a147cc]" started-at="2022-10-29T09:06:21 IST" name="sixthTest" finished-at="2022-10-29T09:06:21 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sixthTest -->
-        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:groupExecution.SixthTest@55a147cc]" started-at="2022-10-29T09:06:21 IST" name="methodTeardown" finished-at="2022-10-29T09:06:21 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodTeardown -->
-        <test-method is-config="true" signature="classTeardown()[pri:0, instance:groupExecution.SixthTest@55a147cc]" started-at="2022-10-29T09:06:21 IST" name="classTeardown" finished-at="2022-10-29T09:06:21 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classTeardown -->
-      </class> <!-- groupExecution.SixthTest -->
-      <class name="groupExecution.SecondTest">
-        <test-method is-config="true" signature="classSetup()[pri:0, instance:groupExecution.SecondTest@738dc9b]" started-at="2022-10-29T09:06:21 IST" name="classSetup" finished-at="2022-10-29T09:06:21 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classSetup -->
-        <test-method signature="secondTest()[pri:0, instance:groupExecution.SecondTest@738dc9b]" started-at="2022-10-29T09:06:21 IST" name="secondTest" finished-at="2022-10-29T09:06:21 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="secondTest()[pri:0, instance:crossBrowserExecution.SecondTest@3012646b]" started-at="2022-10-31T09:24:32 IST" name="secondTest" finished-at="2022-10-31T09:24:35 IST" duration-ms="3432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTest -->
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:groupExecution.SecondTest@738dc9b]" started-at="2022-10-29T09:06:21 IST" name="methodSetup" finished-at="2022-10-29T09:06:21 IST" duration-ms="0" status="PASS">
+      </class> <!-- crossBrowserExecution.SecondTest -->
+      <class name="crossBrowserExecution.FirstTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:crossBrowserExecution.FirstTest@4d154ccd]" started-at="2022-10-31T09:24:35 IST" name="launchBrowser" finished-at="2022-10-31T09:24:38 IST" duration-ms="2719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodSetup -->
-        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:groupExecution.SecondTest@738dc9b]" started-at="2022-10-29T09:06:21 IST" name="methodTeardown" finished-at="2022-10-29T09:06:21 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodTeardown -->
-        <test-method is-config="true" signature="classTeardown()[pri:0, instance:groupExecution.SecondTest@738dc9b]" started-at="2022-10-29T09:06:21 IST" name="classTeardown" finished-at="2022-10-29T09:06:21 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classTeardown -->
-      </class> <!-- groupExecution.SecondTest -->
-      <class name="groupExecution.FifthTest">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:groupExecution.FifthTest@13e344d]" started-at="2022-10-29T09:06:20 IST" name="suiteSetup" finished-at="2022-10-29T09:06:20 IST" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- suiteSetup -->
-        <test-method is-config="true" signature="testSetup()[pri:0, instance:groupExecution.FifthTest@13e344d]" started-at="2022-10-29T09:06:20 IST" name="testSetup" finished-at="2022-10-29T09:06:20 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSetup -->
-        <test-method is-config="true" signature="classSetup()[pri:0, instance:groupExecution.FifthTest@13e344d]" started-at="2022-10-29T09:06:20 IST" name="classSetup" finished-at="2022-10-29T09:06:20 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classSetup -->
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:groupExecution.FifthTest@13e344d]" started-at="2022-10-29T09:06:20 IST" name="methodSetup" finished-at="2022-10-29T09:06:20 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodSetup -->
-        <test-method signature="fifthTest()[pri:0, instance:groupExecution.FifthTest@13e344d]" started-at="2022-10-29T09:06:20 IST" name="fifthTest" finished-at="2022-10-29T09:06:21 IST" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fifthTest -->
-        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:groupExecution.FifthTest@13e344d]" started-at="2022-10-29T09:06:21 IST" name="methodTeardown" finished-at="2022-10-29T09:06:21 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodTeardown -->
-        <test-method is-config="true" signature="classTeardown()[pri:0, instance:groupExecution.FifthTest@13e344d]" started-at="2022-10-29T09:06:21 IST" name="classTeardown" finished-at="2022-10-29T09:06:21 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classTeardown -->
-        <test-method is-config="true" signature="testTeardown()[pri:0, instance:groupExecution.FifthTest@13e344d]" started-at="2022-10-29T09:06:21 IST" name="testTeardown" finished-at="2022-10-29T09:06:21 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTeardown -->
-        <test-method is-config="true" signature="suiteTeardown()[pri:0, instance:groupExecution.FifthTest@13e344d]" started-at="2022-10-29T09:06:21 IST" name="suiteTeardown" finished-at="2022-10-29T09:06:21 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- suiteTeardown -->
-      </class> <!-- groupExecution.FifthTest -->
-      <class name="groupExecution.FirstTest">
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:groupExecution.FirstTest@71ba6d4e]" started-at="2022-10-29T09:06:21 IST" name="methodSetup" finished-at="2022-10-29T09:06:21 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodSetup -->
-        <test-method is-config="true" signature="classSetup()[pri:0, instance:groupExecution.FirstTest@71ba6d4e]" started-at="2022-10-29T09:06:21 IST" name="classSetup" finished-at="2022-10-29T09:06:21 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classSetup -->
-        <test-method signature="firstTest()[pri:0, instance:groupExecution.FirstTest@71ba6d4e]" started-at="2022-10-29T09:06:21 IST" name="firstTest" finished-at="2022-10-29T09:06:21 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="firstTest()[pri:0, instance:crossBrowserExecution.FirstTest@4d154ccd]" started-at="2022-10-31T09:24:38 IST" name="firstTest" finished-at="2022-10-31T09:24:42 IST" duration-ms="4096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:groupExecution.FirstTest@71ba6d4e]" started-at="2022-10-29T09:06:21 IST" name="methodTeardown" finished-at="2022-10-29T09:06:21 IST" duration-ms="2" status="PASS">
+      </class> <!-- crossBrowserExecution.FirstTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-10-31T09:24:26 IST" name="Test2" finished-at="2022-10-31T09:25:01 IST" duration-ms="35151">
+      <class name="crossBrowserExecution.SecondTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:crossBrowserExecution.SecondTest@470734c3]" started-at="2022-10-31T09:24:26 IST" name="launchBrowser" finished-at="2022-10-31T09:24:35 IST" duration-ms="9896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodTeardown -->
-        <test-method is-config="true" signature="classTeardown()[pri:0, instance:groupExecution.FirstTest@71ba6d4e]" started-at="2022-10-29T09:06:21 IST" name="classTeardown" finished-at="2022-10-29T09:06:21 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="secondTest()[pri:0, instance:crossBrowserExecution.SecondTest@470734c3]" started-at="2022-10-31T09:24:35 IST" name="secondTest" finished-at="2022-10-31T09:24:39 IST" duration-ms="3101" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- classTeardown -->
-      </class> <!-- groupExecution.FirstTest -->
-    </test> <!-- Test -->
+        </test-method> <!-- secondTest -->
+      </class> <!-- crossBrowserExecution.SecondTest -->
+      <class name="crossBrowserExecution.FirstTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:crossBrowserExecution.FirstTest@2cf3d63b]" started-at="2022-10-31T09:24:39 IST" name="launchBrowser" finished-at="2022-10-31T09:24:54 IST" duration-ms="15584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="firstTest()[pri:0, instance:crossBrowserExecution.FirstTest@2cf3d63b]" started-at="2022-10-31T09:24:54 IST" name="firstTest" finished-at="2022-10-31T09:25:01 IST" duration-ms="6513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+      </class> <!-- crossBrowserExecution.FirstTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2022-10-31T09:24:26 IST" name="Test3" finished-at="2022-10-31T09:25:14 IST" duration-ms="48595">
+      <class name="crossBrowserExecution.SecondTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:crossBrowserExecution.SecondTest@74ea2410]" started-at="2022-10-31T09:24:26 IST" name="launchBrowser" finished-at="2022-10-31T09:24:48 IST" duration-ms="22903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="secondTest()[pri:0, instance:crossBrowserExecution.SecondTest@74ea2410]" started-at="2022-10-31T09:24:48 IST" name="secondTest" finished-at="2022-10-31T09:24:52 IST" duration-ms="3980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- crossBrowserExecution.SecondTest -->
+      <class name="crossBrowserExecution.FirstTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:crossBrowserExecution.FirstTest@17f62e33]" started-at="2022-10-31T09:24:53 IST" name="launchBrowser" finished-at="2022-10-31T09:25:05 IST" duration-ms="12182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="firstTest()[pri:0, instance:crossBrowserExecution.FirstTest@17f62e33]" started-at="2022-10-31T09:25:05 IST" name="firstTest" finished-at="2022-10-31T09:25:13 IST" duration-ms="8462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+      </class> <!-- crossBrowserExecution.FirstTest -->
+    </test> <!-- Test3 -->
   </suite> <!-- Suite -->
 </testng-results>
