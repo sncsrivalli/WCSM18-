@@ -9,7 +9,7 @@ import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class BaseClass1 {
+public class BaseClassForCrossBrowserExecution {
 	protected WebDriver driver;
 	@Parameters("Browser")
 	

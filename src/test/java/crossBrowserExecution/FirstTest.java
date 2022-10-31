@@ -2,9 +2,9 @@ package crossBrowserExecution;
 
 import org.testng.annotations.Test;
 
-import genericLibraries.BaseClass1;
+import genericLibraries.BaseClassForCrossBrowserExecution;
 
-public class FirstTest extends BaseClass1{
+public class FirstTest extends BaseClassForCrossBrowserExecution{
 	
 	@Test
 	public void firstTest() {
