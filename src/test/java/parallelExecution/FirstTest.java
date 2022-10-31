@@ -1,4 +1,4 @@
-package batchExecution;
+package parallelExecution;
 
 import org.testng.annotations.Test;
 
