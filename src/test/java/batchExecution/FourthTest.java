@@ -2,7 +2,9 @@ package batchExecution;
 
 import org.testng.annotations.Test;
 
-public class FourthTest {
+import genericLibraries.BaseClass;
+
+public class FourthTest extends BaseClass {
 	
 	@Test
 	public void fourthTest() {

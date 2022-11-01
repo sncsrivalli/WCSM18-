@@ -11,36 +11,36 @@ import org.testng.annotations.BeforeTest;
 
 public class BaseClass {
 	
-	@BeforeSuite(alwaysRun = true)
+	@BeforeSuite
 	public void suiteSetup() {
 		System.out.println("*****Before Suite********");
 	}
-	@BeforeTest(alwaysRun = true)
+	@BeforeTest
 	public void testSetup() {
 		System.out.println("*****Before Test********");
 	}
-	@BeforeClass(alwaysRun = true)
+	@BeforeClass
 	public void classSetup() {
 		System.out.println("*****Before Class********");
 	}
-	@BeforeMethod(alwaysRun = true)
+	@BeforeMethod
 	public void methodSetup() {
 		System.out.println("*****Before Method********");
 	}
 	
-	@AfterMethod(alwaysRun = true)
+	@AfterMethod
 	public void methodTeardown() {
 		System.out.println("*****After Method********");
 	}
-	@AfterClass(alwaysRun = true)
+	@AfterClass
 	public void classTeardown() {
 		System.out.println("*****After Class********");
 	}
-	@AfterTest(alwaysRun = true)
+	@AfterTest
 	public void testTeardown() {
 		System.out.println("*****After Test********");
 	}
-	@AfterSuite(alwaysRun = true)
+	@AfterSuite
 	public void suiteTeardown() {
 		System.out.println("*****After Suite********");
 	}
