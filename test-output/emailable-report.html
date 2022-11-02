@@ -9,18 +9,25 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">319</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num attn">1</td><td class="num">20,544</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">batchExecution.FifthTest</td><td><a href="#m0">fifthTest</a></td><td rowspan="1">1667272591946</td><td rowspan="1">6</td></tr><tr class="passedodd"><td rowspan="5">batchExecution.FirstTest</td><td><a href="#m1">demo1Test</a></td><td rowspan="1">1667272592014</td><td rowspan="1">16</td></tr><tr class="passedodd"><td><a href="#m2">demo2Test</a></td><td rowspan="1">1667272592052</td><td rowspan="1">12</td></tr><tr class="passedodd"><td><a href="#m3">demo3Test</a></td><td rowspan="1">1667272592084</td><td rowspan="1">8</td></tr><tr class="passedodd"><td><a href="#m4">demo4Test</a></td><td rowspan="1">1667272592104</td><td rowspan="1">13</td></tr><tr class="passedodd"><td><a href="#m5">demo5Test</a></td><td rowspan="1">1667272592133</td><td rowspan="1">4</td></tr><tr class="passedeven"><td rowspan="1">batchExecution.FourthTest</td><td><a href="#m6">fourthTest</a></td><td rowspan="1">1667272592184</td><td rowspan="1">9</td></tr><tr class="passedodd"><td rowspan="1">batchExecution.SecondTest</td><td><a href="#m7">secondTest</a></td><td rowspan="1">1667272592164</td><td rowspan="1">5</td></tr><tr class="passedeven"><td rowspan="1">batchExecution.ThirdTest</td><td><a href="#m8">thirdTest</a></td><td rowspan="1">1667272591978</td><td rowspan="1">2</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">retryPractice.FirstTest</td><td><a href="#m0">firstTest</a></td><td rowspan="1">1667358374259</td><td rowspan="1">1937</td></tr><tr><th colspan="4">Test &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="3">retryPractice.FirstTest</td><td><a href="#m1">firstTest</a></td><td rowspan="3">1667358364232</td><td rowspan="3">4467</td></tr><tr class="retriedeven"><td><a href="#m2">firstTest</a></td></tr><tr class="retriedeven"><td><a href="#m3">firstTest</a></td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">batchExecution.FifthTest#fifthTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">batchExecution.FirstTest#demo1Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">batchExecution.FirstTest#demo2Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">batchExecution.FirstTest#demo3Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">batchExecution.FirstTest#demo4Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">batchExecution.FirstTest#demo5Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">batchExecution.FourthTest#fourthTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">batchExecution.SecondTest#secondTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">batchExecution.ThirdTest#thirdTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">retryPractice.FirstTest#firstTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at retryPractice.FirstTest.firstTest(FirstTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">retryPractice.FirstTest#firstTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at retryPractice.FirstTest.firstTest(FirstTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">retryPractice.FirstTest#firstTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at retryPractice.FirstTest.firstTest(FirstTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">retryPractice.FirstTest#firstTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at retryPractice.FirstTest.firstTest(FirstTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
