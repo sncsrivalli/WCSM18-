@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="retryPractice.FirstTest">
+      <class name="extentReports.FirstTest">
         <methods>
-          <include name="firstTest"/>
           <include name="launchBrowser"/>
+          <include name="firstTest"/>
         </methods>
-      </class> <!-- retryPractice.FirstTest -->
+      </class> <!-- extentReports.FirstTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
