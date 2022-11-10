@@ -27,7 +27,7 @@
 				</plugins>
 			</build>
 		</profile>
-		
+
 		<profile>
 			<id>compatibilityTests</id>
 			<build>
@@ -75,9 +75,10 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.4.0</version>
-			<scope>test</scope>
+			<version>7.5</version>
+			
 		</dependency>
+
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 		<dependency>
