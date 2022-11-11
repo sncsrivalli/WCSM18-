@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="extentReports.FirstTest">
+      <class name="practice.JenkinsParameterPractice">
         <methods>
-          <include name="launchBrowser"/>
-          <include name="firstTest"/>
+          <include name="parameterTest"/>
         </methods>
-      </class> <!-- extentReports.FirstTest -->
+      </class> <!-- practice.JenkinsParameterPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -18,7 +18,7 @@ public class JenkinsParameterPractice {
 		WebDriver driver = null;
 		String browser = System.getProperty("browser");
 		String url = System.getProperty("url");
-
+		System.out.println(browser+"\n"+url);
 		switch (browser) {
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
