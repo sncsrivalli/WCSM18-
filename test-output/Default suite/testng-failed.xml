@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.JenkinsParameterPractice">
+      <class name="seleniumGrid.LaunchBrowser">
         <methods>
-          <include name="parameterTest"/>
+          <include name="gridPractice"/>
         </methods>
-      </class> <!-- practice.JenkinsParameterPractice -->
+      </class> <!-- seleniumGrid.LaunchBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
