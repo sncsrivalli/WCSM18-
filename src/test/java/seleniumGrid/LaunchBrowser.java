@@ -15,7 +15,7 @@ public class LaunchBrowser {
 	@Test
 	public void gridPractice() throws MalformedURLException, InterruptedException {
 		
-		URL url = new URL("http://192.168.0.136:5555/wd/hub");
+		URL url = new URL("http://192.168.1.2:9999/wd/hub");
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setPlatform(Platform.WINDOWS);
 		cap.setBrowserName("chrome");
