@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-20T20:47:02 IST" name="Default suite" finished-at="2022-11-20T20:47:14 IST" duration-ms="11567">
+  <suite started-at="2022-11-21T07:43:47 IST" name="Default suite" finished-at="2022-11-21T07:44:00 IST" duration-ms="13385">
     <groups>
     </groups>
-    <test started-at="2022-11-20T20:47:02 IST" name="Default test" finished-at="2022-11-20T20:47:14 IST" duration-ms="11567">
+    <test started-at="2022-11-21T07:43:47 IST" name="Default test" finished-at="2022-11-21T07:44:00 IST" duration-ms="13385">
       <class name="seleniumGrid.LaunchBrowser">
-        <test-method signature="gridPractice()[pri:0, instance:seleniumGrid.LaunchBrowser@729d991e]" started-at="2022-11-20T20:47:02 IST" name="gridPractice" finished-at="2022-11-20T20:47:14 IST" duration-ms="11437" status="PASS">
+        <test-method signature="gridPractice()[pri:0, instance:seleniumGrid.LaunchBrowser@729d991e]" started-at="2022-11-21T07:43:47 IST" name="gridPractice" finished-at="2022-11-21T07:44:00 IST" duration-ms="13201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gridPractice -->
